@@ -1,0 +1,45 @@
+#destination {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 50vh;
+	transform: translateY(50%);
+	display: flex;
+	justify-content: center;
+}
+
+#head {
+	width: 200px;
+	height: 200px;
+
+	&-hair {
+		position: relative;
+		z-index: 3;
+		fill: #F00;
+	}
+
+	&-hide {
+		&-head, 
+		&-glasses {
+			position: relative;
+			z-index: 2;
+			fill: #FFF;
+		}
+	}
+
+	&-neck-left,
+	&-neck-right, 
+	&-ear, 
+	&-outline {
+		position: relative;
+		z-index: 1;
+		fill: transparent;
+		stroke: #F00;
+		stroke-width: 4;
+		stroke-linecap: round;
+	}
+
+	&-ear {
+		z-index: 4;
+	}
+}

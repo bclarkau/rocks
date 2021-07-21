@@ -1,0 +1,14 @@
+#delivery {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 10vh;
+	display: flex;
+	justify-content: center;
+	z-index: 10;
+}
+
+#glasses {
+	width: 160px;
+	height: 50px;
+}
