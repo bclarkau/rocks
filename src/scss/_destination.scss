@@ -6,6 +6,7 @@
 	transform: translateY(50%);
 	display: flex;
 	justify-content: center;
+	height: 200px;
 }
 
 #head {
@@ -15,7 +16,7 @@
 	&-hair {
 		position: relative;
 		z-index: 3;
-		fill: #F00;
+		fill: #000;
 	}
 
 	&-hide {
@@ -34,7 +35,7 @@
 		position: relative;
 		z-index: 1;
 		fill: transparent;
-		stroke: #F00;
+		stroke: #000;
 		stroke-width: 4;
 		stroke-linecap: round;
 	}
